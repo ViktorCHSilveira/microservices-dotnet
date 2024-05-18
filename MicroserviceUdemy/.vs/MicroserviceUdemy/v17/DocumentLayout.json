@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\MicroserviceUdemy\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3383E0D2-FF04-4D29-B013-6F4E4653A795}|MicroserviceUdemy\\MicroserviceUdemy.csproj|c:\\users\\viktor\\desktop\\estudos\\microservicos com dotnet\\microservices-dotnet\\microserviceudemy\\microserviceudemy\\controller\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3383E0D2-FF04-4D29-B013-6F4E4653A795}|MicroserviceUdemy\\MicroserviceUdemy.csproj|solutionrelative:microserviceudemy\\controller\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3383E0D2-FF04-4D29-B013-6F4E4653A795}|MicroserviceUdemy\\MicroserviceUdemy.csproj|c:\\users\\viktor\\desktop\\estudos\\microservicos com dotnet\\microservices-dotnet\\microserviceudemy\\microserviceudemy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3383E0D2-FF04-4D29-B013-6F4E4653A795}|MicroserviceUdemy\\MicroserviceUdemy.csproj|solutionrelative:microserviceudemy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3383E0D2-FF04-4D29-B013-6F4E4653A795}|MicroserviceUdemy\\MicroserviceUdemy.csproj|c:\\users\\viktor\\desktop\\estudos\\microservicos com dotnet\\microservices-dotnet\\microserviceudemy\\microserviceudemy\\controller\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3383E0D2-FF04-4D29-B013-6F4E4653A795}|MicroserviceUdemy\\MicroserviceUdemy.csproj|solutionrelative:microserviceudemy\\controller\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3383E0D2-FF04-4D29-B013-6F4E4653A795}|MicroserviceUdemy\\MicroserviceUdemy.csproj|c:\\users\\viktor\\desktop\\estudos\\microservicos com dotnet\\microservices-dotnet\\microserviceudemy\\microserviceudemy\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3383E0D2-FF04-4D29-B013-6F4E4653A795}|MicroserviceUdemy\\MicroserviceUdemy.csproj|solutionrelative:microserviceudemy\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\MicroserviceUdemy\\MicroserviceUdemy\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MicroserviceUdemy\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\MicroserviceUdemy\\MicroserviceUdemy\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MicroserviceUdemy\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-18T19:35:05.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\MicroserviceUdemy\\MicroserviceUdemy\\Controller\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "MicroserviceUdemy\\Controller\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\MicroserviceUdemy\\MicroserviceUdemy\\Controller\\BaseApiController.cs",
+              "RelativeToolTip": "MicroserviceUdemy\\Controller\\BaseApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T19:14:16.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\MicroserviceUdemy\\MicroserviceUdemy\\Program.cs",
+              "RelativeDocumentMoniker": "MicroserviceUdemy\\Program.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\MicroserviceUdemy\\MicroserviceUdemy\\Program.cs",
+              "RelativeToolTip": "MicroserviceUdemy\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T19:04:08.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculatorController.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\MicroserviceUdemy\\MicroserviceUdemy\\Controller\\CalculatorController.cs",
+              "RelativeDocumentMoniker": "MicroserviceUdemy\\Controller\\CalculatorController.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\MicroserviceUdemy\\MicroserviceUdemy\\Controller\\CalculatorController.cs",
+              "RelativeToolTip": "MicroserviceUdemy\\Controller\\CalculatorController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T18:39:11.088Z",
+              "EditorCaption": ""
             }
           ]
         }
