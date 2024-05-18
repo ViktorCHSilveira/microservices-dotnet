@@ -1,0 +1,6 @@
+@MicroserviceUdemy_HostAddress = http://localhost:5023
+
+GET {{MicroserviceUdemy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
