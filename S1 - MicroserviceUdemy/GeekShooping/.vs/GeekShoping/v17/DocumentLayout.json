@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|c:\\users\\viktor\\desktop\\estudos\\microservicos com dotnet\\microservices-dotnet\\s1 - microserviceudemy\\geekshooping\\geekshopping.product.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|solutionrelative:geekshopping.product.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|c:\\users\\viktor\\desktop\\estudos\\microservicos com dotnet\\microservices-dotnet\\s1 - microserviceudemy\\geekshooping\\geekshopping.product.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|solutionrelative:geekshopping.product.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|c:\\users\\viktor\\desktop\\estudos\\microservicos com dotnet\\microservices-dotnet\\s1 - microserviceudemy\\geekshooping\\geekshopping.product.api\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|solutionrelative:geekshopping.product.api\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|c:\\users\\viktor\\desktop\\estudos\\microservicos com dotnet\\microservices-dotnet\\s1 - microserviceudemy\\geekshooping\\geekshopping.product.api\\geekshopping.product.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|solutionrelative:geekshopping.product.api\\geekshopping.product.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|c:\\users\\viktor\\desktop\\estudos\\microservicos com dotnet\\microservices-dotnet\\s1 - microserviceudemy\\geekshooping\\geekshopping.product.api\\model\\context\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|solutionrelative:geekshopping.product.api\\model\\context\\mysqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|c:\\users\\viktor\\desktop\\estudos\\microservicos com dotnet\\microservices-dotnet\\s1 - microserviceudemy\\geekshooping\\geekshopping.product.api\\model\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0923924E-AE9C-4A42-AF78-A129FC4E06B5}|GeekShopping.Product.Api\\GeekShopping.Product.Api.csproj|solutionrelative:geekshopping.product.api\\model\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeekShopping.Product.Api.http",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\GeekShopping.Product.Api.http",
+              "RelativeDocumentMoniker": "GeekShopping.Product.Api\\GeekShopping.Product.Api.http",
+              "ToolTip": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\GeekShopping.Product.Api.http",
+              "RelativeToolTip": "GeekShopping.Product.Api\\GeekShopping.Product.Api.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-19T22:47:13.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "GeekShopping.Product.Api\\Model\\Product.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\Model\\Product.cs",
+              "RelativeToolTip": "GeekShopping.Product.Api\\Model\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T22:35:13.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "GeekShopping.Product.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\appsettings.json",
+              "RelativeToolTip": "GeekShopping.Product.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-19T22:31:56.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\Program.cs",
+              "RelativeDocumentMoniker": "GeekShopping.Product.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\Program.cs",
+              "RelativeToolTip": "GeekShopping.Product.Api\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T22:14:33.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MySQLContext.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\Model\\Context\\MySQLContext.cs",
+              "RelativeDocumentMoniker": "GeekShopping.Product.Api\\Model\\Context\\MySQLContext.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\Model\\Context\\MySQLContext.cs",
+              "RelativeToolTip": "GeekShopping.Product.Api\\Model\\Context\\MySQLContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T22:12:58.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\Model\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "GeekShopping.Product.Api\\Model\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S1 - MicroserviceUdemy\\GeekShooping\\GeekShopping.Product.Api\\Model\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "GeekShopping.Product.Api\\Model\\Base\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T22:10:05.544Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
