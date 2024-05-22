@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Threading.Tasks;
 
 namespace GeekShopping.ProductApi.Data.DTO {
     public class ProductDTO {
 
-        public long id { get; set; }
+        public long Id { get; set; }
 
         public string Name { get; set; }
 

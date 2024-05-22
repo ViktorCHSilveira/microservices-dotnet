@@ -3,6 +3,7 @@ using GeekShopping.ProductApi.Config;
 using GeekShopping.ProductApi.Model.Context;
 using GeekShopping.ProductApi.Repository;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 var Configuration = builder.Configuration;
@@ -14,7 +15,11 @@ ConfigureServices(builder.Services);
 void ConfigureServices(IServiceCollection services) {
 
 
-    services.AddControllers();
+    services.AddControllers()
+            .AddJsonOptions(options => {
+        options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+        options.JsonSerializerOptions.DictionaryKeyPolicy = JsonNamingPolicy.CamelCase;
+    }); 
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
     services.AddEndpointsApiExplorer();
     services.AddSwaggerGen();
@@ -22,9 +27,9 @@ void ConfigureServices(IServiceCollection services) {
     var connection = Configuration["MySQLConnection:MySQLConnectionString"];
     services.AddDbContext<MySQLContext>(options => options.
                    UseMySql(connection,
-                   new MySqlServerVersion(new Version(8, 0, 5))));
+                   new MySqlServerVersion(new Version(8, 0, 21))));
 
-    IMapper mapper = MappingConfig.RegisterMapas().CreateMapper();
+    IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
     services.AddSingleton(mapper);
     services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
     services.AddScoped<IProductRepository, ProductRepository>();

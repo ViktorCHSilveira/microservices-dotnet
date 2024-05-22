@@ -16,7 +16,7 @@ namespace GeekShopping.ProductApi.Repository {
             _context = context;
         }
 
-        public async Task<IEnumerable<ProductDTO>> FindAll() {
+        public async Task<List<ProductDTO>> FindAll() {
 
             List<Product> products = await _context.Products.ToListAsync();
 
@@ -25,21 +25,12 @@ namespace GeekShopping.ProductApi.Repository {
 
         public async Task<ProductDTO> FindById(long id) {
 
-            Product products = await _context.Products.Where(p => p.id == id).FirstOrDefaultAsync();
+            Product products = await _context.Products.Where(p => p.Id == id).FirstOrDefaultAsync() ?? new Product() ;
 
             return _mapper.Map<ProductDTO>(products);
         }
 
         public async Task<ProductDTO> Create(ProductDTO dto) {
-
-            Product products = _mapper.Map<Product>(dto);
-            _context.Products.Update(products);
-            await _context.SaveChangesAsync();
-
-            return _mapper.Map<ProductDTO>(products);
-        }
-
-        public async Task<ProductDTO> Update(ProductDTO dto) {
 
             Product products = _mapper.Map<Product>(dto);
             _context.Products.Add(products);
@@ -48,15 +39,23 @@ namespace GeekShopping.ProductApi.Repository {
             return _mapper.Map<ProductDTO>(products);
         }
 
+        public async Task<ProductDTO> Update(ProductDTO dto) {
+
+            Product products = _mapper.Map<Product>(dto);
+            _context.Products.Update(products);
+            await _context.SaveChangesAsync();
+
+            return _mapper.Map<ProductDTO>(products);
+        }
+
         public async Task<bool> Delete(long id) {
             try {
                
-                Product products = await _context.Products.Where(p => p.id == id).FirstOrDefaultAsync();
+                Product products = await _context.Products.Where(p => p.Id == id).FirstOrDefaultAsync() ?? new Product();
 
-                if (products == null) return false;
+                if (products.Id <= 0) return false;
 
                 _context.Products.Remove(products);
-                
                 await _context.SaveChangesAsync();
 
                 return true;
