@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\GeekShopping.web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S2 - MicroserviceUdemy\\GeekShooping\\GeekShopping.web\\wwwroot\\Images\\favicon.png",
+      "PackagePath": "staticwebassets\\Images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S2 - MicroserviceUdemy\\GeekShooping\\GeekShopping.web\\wwwroot\\Images\\geek_shopping.png",
+      "PackagePath": "staticwebassets\\Images\\geek_shopping.png"
+    },
+    {
       "Id": "C:\\Users\\Viktor\\Desktop\\Estudos\\Microservicos com dotnet\\microservices-dotnet\\S2 - MicroserviceUdemy\\GeekShooping\\GeekShopping.web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
