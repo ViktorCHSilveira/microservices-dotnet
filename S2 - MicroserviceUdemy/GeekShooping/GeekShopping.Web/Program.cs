@@ -1,5 +1,6 @@
-using GeekShopping.web.Services;
-using GeekShopping.web.Services.ISercies;
+using GeekShopping.web.Areas.Product.Services;
+using GeekShopping.web.Areas.Product.Services.ISercies;
+using GeekShopping.web.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseCustomEndpoints();
 
 app.MapControllerRoute(
     name: "default",

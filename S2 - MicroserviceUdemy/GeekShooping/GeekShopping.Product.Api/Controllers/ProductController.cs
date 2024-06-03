@@ -59,7 +59,7 @@ namespace GeekShopping.ProductApi.Controllers {
             if (status == false) return BadRequest();
 
 
-            return Ok();
+            return Ok("true");
         }
     }
 }

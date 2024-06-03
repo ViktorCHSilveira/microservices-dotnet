@@ -21,7 +21,6 @@ void ConfigureServices(IServiceCollection services) {
         options.JsonSerializerOptions.DictionaryKeyPolicy = JsonNamingPolicy.CamelCase;
     }); 
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-    services.AddEndpointsApiExplorer();
     services.AddSwaggerGen();
 
     var connection = Configuration["MySQLConnection:MySQLConnectionString"];

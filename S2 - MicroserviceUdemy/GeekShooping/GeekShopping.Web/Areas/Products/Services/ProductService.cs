@@ -1,10 +1,11 @@
-﻿using GeekShopping.web.Models;
-using GeekShopping.web.Services.ISercies;
+﻿using GeekShopping.web.Areas.Product.Models;
+using GeekShopping.web.Areas.Product.Services.ISercies;
 using GeekShopping.web.Utils;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http;
 using System.Reflection;
 
-namespace GeekShopping.web.Services {
+namespace GeekShopping.web.Areas.Product.Services {
     public class ProductService : IProductService {
 
         private readonly HttpClient _httpClient;
@@ -24,7 +25,7 @@ namespace GeekShopping.web.Services {
             return await response.ReadContentAs<ProductModel>();
         }
 
-        public async Task<ProductModel> CreateProduct([FromBody] ProductModel model) {
+        public async Task<ProductModel> CreateProduct(ProductModel model) {
 
             var response = await _httpClient.PostAsJson(BasePath, model);
 
@@ -35,7 +36,7 @@ namespace GeekShopping.web.Services {
             return await response.ReadContentAs<ProductModel>();
         }
 
-        public async Task<ProductModel> UpdateProduct([FromBody] ProductModel model) {
+        public async Task<ProductModel> UpdateProduct(ProductModel model) {
 
             var response = await _httpClient.PutAsJson(BasePath, model);
 
@@ -46,9 +47,10 @@ namespace GeekShopping.web.Services {
             return await response.ReadContentAs<ProductModel>();
         }
 
-        public async Task<bool> DeleteyId(long id) {
+        public async Task<bool> DeleteById(long id) {
 
-            var response = await _httpClient.DeleteAsync($"{BasePath}/{id}");
+
+            var response = await _httpClient.DeleteAsync($"{BasePath}?id={id}");
 
             if (!response.IsSuccessStatusCode) {
                 throw new Exception("Something went wrong when calling API");

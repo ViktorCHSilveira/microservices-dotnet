@@ -6,4 +6,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Areas\Products\ProductControllerMap.cs" />
+    <Compile Remove="Extensions\DecimalModelBinder.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Areas\Products\Views\Product\I.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
